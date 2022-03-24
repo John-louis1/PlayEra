@@ -1,7 +1,13 @@
+html {
+  background-color: #080708;
+  color: #EFFFC8;
+}
+
 nav {
   display:inline-block;
   /*overflow: hidden;*/
-  background-color: #333;
+  background-color: #0F1A20;
+  color: 000;
   position: fixed;
   top: 0; 
   left: 0;
@@ -11,21 +17,33 @@ nav {
 }
 
 nav a {
+  font-size: 25px;
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #EFFFC8;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 nav a:hover {
-  background: #ddd;
-  color: black;
+  background: #444;
+  color: #FFF;
 }
 
 #mainBody {
-  margin-top: 4rem;
+  margin-top: 5rem;
+}
+
+#intro {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro h1 {
+
 }
 
 #flexnav {
@@ -35,4 +53,45 @@ nav a:hover {
   justify-content: space-evenly;
   left: 0;
   align-items: space-evenly;
+}
+
+
+#dark {
+  background: #0F1A20;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #eee;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: fixed;
+  top: 6rem;
+  right: 1rem;
+}
+
+#dark:hover {
+  background: #595959;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: xxx-large;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+p {
+  font-size: x-large;
+}
+
+hr {
+  border: 2px solid #0F1A20;
+  width: 85%;
+}
+
+#firstHR {
+  border: 1px solid #0F1A20;
+  width: 35%;
 }
