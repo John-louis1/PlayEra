@@ -1,6 +1,7 @@
 html {
   background-color: #080708;
   color: #EFFFC8;
+  margin-left: 15px;
 }
 
 nav {
@@ -94,4 +95,48 @@ hr {
 #firstHR {
   border: 1px solid #0F1A20;
   width: 35%;
+}
+
+#games {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  left: 0;
+}
+
+.game1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  left: 0;
+}
+.game2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  left: 0;
+}
+
+#games button{
+  width: 15rem;
+  height: 5rem;
+  font-size: xx-large;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  left: 0;
+  align-items: space-evenly;
+}
+
+img {
+  width: 12rem;
+  height: auto;
+  
 }
