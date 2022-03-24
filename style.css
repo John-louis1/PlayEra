@@ -28,23 +28,11 @@ nav a:hover {
   margin-top: 4rem;
 }
 
-#navList {
-  position: relative;
-}
-
-#navList > a {
-  position: absolute;
-}
-
-/* Main content */
-#introButton {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
-}
-
-#gamesButton {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
-}
-
-#aboutButton {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+#flexnav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  left: 0;
+  align-items: space-evenly;
 }
