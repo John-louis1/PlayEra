@@ -44,3 +44,20 @@ function guess(){
     document.getElementsByClassName("color")[1].removeAttribute("onclick");
     document.getElementsByClassName("color")[2].removeAttribute("onclick");
 }
+
+
+function flipTheme(){
+    let index=["Light Mode", "Dark Mode"];
+  
+    if (document.activeElement.innerHTML== index[0]) {
+      document.activeElement.innerHTML= index[1];
+      document.getElementById('html').style.backgroundColor = "#EDDEA4";
+      document.getElementById('html').style.color = "#000"; 
+    }
+    else {
+      document.activeElement.innerHTML= index[0];
+      
+      document.getElementById('html').style.backgroundColor = "#080708";
+      document.getElementById('html').style.color = "#fff"; 
+    }
+}

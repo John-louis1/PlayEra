@@ -100,3 +100,25 @@ url3.addEventListener('click', (e)=>{
         window.location.href = "http://127.0.0.1:5500/game3/game3.html";
     }, 500);
 });
+
+function flipTheme(){
+  let index=["Light Mode", "Dark Mode"];
+
+  if (document.activeElement.innerHTML== index[0]) {
+    document.activeElement.innerHTML= index[1];
+    document.getElementById('html').style.backgroundColor = "#EDDEA4";
+    document.getElementById('nav').style.backgroundColor = "#F28F3B"; 
+    document.getElementById('html').style.color = "#000"; 
+  }
+  else {
+    document.activeElement.innerHTML= index[0];
+    
+    document.getElementById('html').style.backgroundColor = "#080708";
+    document.getElementById('nav').style.backgroundColor = "#0F1A20"; 
+    document.getElementById('html').style.color = "#fff"; 
+  }
+
+  
+
+  
+}
