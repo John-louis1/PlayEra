@@ -131,3 +131,17 @@ color: black;
     margin: 0px;
 
 }
+
+#frame {
+    width: 75%;
+    border: 5px solid #000;
+    height:20rem;
+    background-color: #595959;
+}
+
+img {
+    height: 20%;
+    cursor: pointer;
+    position: absolute; 
+    transition: all 1s;
+}
