@@ -47,16 +47,19 @@ p {
     background-color: #f00;
     height: 5em;
     width: 5em;
+    box-shadow: 0 1px 5px #f00;
 }
 #green {
     background-color: #0f0;
     height: 5em;
     width: 5em;
+    box-shadow: 0 1px 5px #0f0;
 }
 #blue {
     background-color: #00f;
     height: 5em;
     width: 5em;
+    box-shadow: 0 1px 5px #00f;
 }
 
 button {
@@ -83,6 +86,7 @@ width: 85%;
 #firstHR {
 border: 1px solid #0F1A20;
 width: 35%;
+
 }
 
 .won {
