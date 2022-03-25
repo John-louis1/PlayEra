@@ -13,36 +13,49 @@
 <body>
     <nav>
         <ul id="flexnav">
-            <ol id="introButton"><a>Introduction</a></ol>
-            <ol id="gamesButton"><a>Play now!</a></ol>
-            <ol id="aboutButton"><a>About</a></ol>
+            <ol id="introButton"><a href="#one">Introduction</a></ol>
+            <ol id="gamesButton"><a href="#two">Play now!</a></ol>
+            <ol id="aboutButton"><a href="#about">About</a></ol>
         </ul>
     </nav>>
     <div id="mainBody">
         <button id="dark">Light Mode</button>
         <div id="intro">
-            <h1> IEEE GAMERS &#9994 &#9995 &#9996</h1>
-            <br> <hr id="firstHR"> <br>
+            <h1 id="one"> IEEE GAMERS &#9994 &#9995 &#9996</h1>
+            <hr id="firstHR"> <br>
             <h2>Introduction</h2>
-            <p>Welcome to the IEEE gaming website! That's where you can leave all your worries and have some fun. Enjoy &#128521</p>
+            <p id="two">Welcome to the IEEE gaming website! That's where you can leave all your worries and have some fun. Enjoy &#128521</p>
         </div>
         <hr>
         <br><br><br>
+
         <div id="games">
-            
-            <div class="game1"> 
-                <button class="game1">Rock Scissors Paper</button>
-                <p> Play Rock Scissors Paper with the computer. Can you beat it?</p>
+            <h2> Let the Fun BEGIN &#127878</h2> <br>
+            <div id="gamesButtons">
+                <div class="button game1" data-type="square"> 
+                    <button class="game1">Rock Scissors Paper</button>
+                </div>
+                <div class="button game2" data-type="circle"> 
+                    <button class="game2">Guess the Color</button>
+                </div>
+                <div class="button game3" data-type="triangle"> 
+                    <button class="game3">Find the Doggo</button>
+                </div>
             </div>
-            <div class="game2"> 
-                <button class="game2">Guess the Color</button>
-                <p> Can you guess the color that the computer guesses?</p>
+            <div id="gamesDesc">
+                <div class="game1"> 
+                    <p> Play Rock Scissors Paper with the computer. Can you beat it?</p>
+                </div>
+                <div class="game2"> 
+                    <p> Can you guess the color that the computer guesses?</p>
+                </div>
+                <div class="game3"> 
+                    <p> Race the timer to find the dog. Up to the challenge?</p>
+                </div>
             </div>
-            <div class="game3"> 
-                <button class="game3">Find the Doggo</button>
-                <p> Can you find the dog?</p>
-            </div>
+
         </div>
+
         <br><br>
         <hr>
         <br> <br>
@@ -55,5 +68,6 @@
         </div>
         <br> <br>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
