@@ -12,8 +12,8 @@ for(let i = 0; i < 6; i++){
 let color = `#${colorParts.join("")}`;
 document.getElementById("hex").innerHTML = color;
 
-var index = [0,1,2];
-var i = Math.floor(Math.random()*3);
+let index = [0,1,2];
+let i = Math.floor(Math.random()*3);
 document.getElementById(`c${i}`).style.backgroundColor=color;
 
 index.splice(i,1);

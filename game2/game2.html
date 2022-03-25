@@ -19,17 +19,22 @@
         <hr id="firstHR"> <br>
         <div id="how">
             <h2> How To Play</h2>
-            <p> To win this game, you should pick paper, rock, or scissors to defeat the computer and beat it up. Go crush it!</p>
+            <p> To win this game, you should beat the computer 3 times before it beats you. Go crush it!</p>
         </div>
         <hr> <br>
         <div id="game">
             <div id="again">
-                <h2>Choose a Game</h2>
-                <button "replay">Play again</button>
+                <h2 id="status">Score</h2>
+                <div id="score">
+                    <h2 id="player">0</h2>
+                    <h2>:</h2>
+                    <h2 id="computer">0</h2>
+                </div>
+                <button id="again" onclick="replay()">Play again</button>
             </div>
-            <button class="prs">&#9995</button>
-            <button class="prs">&#9994</button>
-            <button class="prs">&#9996</button>
+            <button class="prs" id="0" onclick="play()">&#9995</button>
+            <button class="prs" id="1" onclick="play()">&#9994</button>
+            <button class="prs" id="2" onclick="play()">&#9996</button>
         </div> 
         <br> <br>
         

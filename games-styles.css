@@ -117,3 +117,8 @@ img {
     position: absolute; 
     transition: all 1s;
 }
+
+#score {
+    display: flex;
+    flex-direction: row;
+}
