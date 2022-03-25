@@ -71,49 +71,32 @@ function removeParticle(e) {
 
 
 
+var url1 = document.getElementById('link1');
 
+url1.addEventListener('click', (e)=>{
+    e.preventDefault();
 
+    setTimeout(() =>{
+        window.location.href = "http://127.0.0.1:5500/game1/game1.html";
+    }, 500);
+});
 
+var url2 = document.getElementById('link2');
 
+url2.addEventListener('click', (e)=>{
+    e.preventDefault();
 
+    setTimeout(() =>{
+        window.location.href = "http://127.0.0.1:5500/game2/game2.html";
+    }, 500);
+});
 
+var url3 = document.getElementById('link3');
 
+url3.addEventListener('click', (e)=>{
+    e.preventDefault();
 
-var randomColor = Math.floor(Math.random()*16777215).toString(16);
-
-
-
-
-
-
-
-// // dog
-// var object = document.getElementById('dog');
-
-// object.onclick=function(){
-//   var x;
-//   var y;
-//   while(true){
-//     x = Math.floor(Math.random()*300);
-//     y = Math.floor(Math.random()*300);
-//     object.style.top = x + 'px';
-//     object.style.left = y + 'px';
-//   }
-// };
-
-
-var timeLeft = 30;
-    var elem = document.getElementById('dog');
-    
-    var timerId = setInterval(countdown, 1000);
-    
-    function countdown() {
-      if (timeLeft == -1) {
-        clearTimeout(timerId);
-        doSomething();
-      } else {
-        elem.innerHTML = timeLeft + ' seconds remaining';
-        timeLeft--;
-      }
-    }
-
+    setTimeout(() =>{
+        window.location.href = "http://127.0.0.1:5500/game3/game3.html";
+    }, 500);
+});
