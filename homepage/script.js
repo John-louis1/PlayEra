@@ -54,7 +54,7 @@ function createParticle(x, y, type) {
       },
     ],
     {
-      duration: 500 + Math.random() * 1000,
+      duration: 500 ,
       easing: "cubic-bezier(0, .9, .57, 1)",
       delay: Math.random() * 200,
     }
@@ -116,3 +116,4 @@ var timeLeft = 30;
         timeLeft--;
       }
     }
+
