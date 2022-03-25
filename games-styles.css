@@ -3,3 +3,131 @@ html {
     color: #EFFFC8;
     margin-left: 15px;
 }
+
+#mainBody {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+p {
+    font-size: x-large;
+  }
+
+#how {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+#game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+#red {
+    background-color: #f00;
+    height: 5em;
+    width: 5em;
+}
+#green {
+    background-color: #0f0;
+    height: 5em;
+    width: 5em;
+}
+#blue {
+    background-color: #00f;
+    height: 5em;
+    width: 5em;
+}
+
+button {
+    cursor: pointer;
+    background: #0F1A20;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #eee;
+    font-size: 20px;
+    text-decoration: none;
+    height: 2.5em;
+}
+
+button:hover {
+    background: #595959;
+    text-decoration: none;
+}
+
+hr {
+border: 2px solid #0F1A20;
+width: 85%;
+}
+
+#firstHR {
+border: 1px solid #0F1A20;
+width: 35%;
+}
+
+.won {
+padding: 20px;
+font-size: 1.5em;
+background-color: #068511; /* Red */
+color: white;
+margin-bottom: 15px;
+}
+
+.lost {
+padding: 20px;
+font-size: 1.5em;
+background-color: #94170e; /* Red */
+color: white;
+margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+margin-left: 15px;
+color: white;
+font-weight: bold;
+float: right;
+font-size: 22px;
+line-height: 20px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+color: black;
+}
+
+#again {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prs {
+    width: 5rem;
+    height: 5rem;
+    padding: 0px;
+    margin: 0px;
+
+}

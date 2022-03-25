@@ -68,3 +68,15 @@ function createParticle(x, y, type) {
 function removeParticle(e) {
   e.srcElement.effect.target.remove();
 }
+
+
+
+
+
+
+
+
+
+
+
+var randomColor = Math.floor(Math.random()*16777215).toString(16);
