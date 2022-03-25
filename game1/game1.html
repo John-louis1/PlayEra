@@ -19,31 +19,19 @@
         <hr id="firstHR"> <br>
         <div id="how">
             <h2> How To Play</h2>
-            <p> To win this game, all you have to do is to successfully guess which color will the computer choose and choose it as well. This is no easy task, but we believe in you, good luck!</p>
+            <p> To win this game, all you have to do is to successfully guess which color does the hexadecimal that the computer generated represents. This is no easy task, but we believe in you, good luck!</p>
         </div>
         <hr> <br>
         <div id="game">
-            <button id="red"></button>
-            <button id="green"></button>
-            <button id="blue"></button>
+            <div class="gameF">
+                <h2 id="hex"> #135342</h2>
+                <button id="again" onclick="replay()">Play again</button>
+            </div>
+                <button class="color" id="c0" onclick="guess()"></button>
+                <button class="color" id="c1" onclick="guess()"></button>
+                <button class="color" id="c2" onclick="guess()"></button>
         </div> 
-        <br> <br> <br>
-        <div class="played">
-            <div class="won">
-                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-                Congratulations, You Won!
-            </div>
-            <div class="lost">
-                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-                Sorry, You Lost.
-            </div>
-            <br>
-            <div id="again">
-                <button "replay">Play again</button>
-            </div>
-        </div>
-        <br> <br>
     </div>
-    <script src="script.js"></script>
+    <script src="game1.js"></script>
 </body>
 </html>
