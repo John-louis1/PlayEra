@@ -34,6 +34,7 @@ nav a:hover {
 
 #mainBody {
   margin-top: 5rem;
+  
 }
 
 #intro {
@@ -77,6 +78,35 @@ nav ol {
   position: fixed;
   top: 6rem;
   right: 1rem;
+}
+
+#dark2 {
+  cursor: pointer;
+  background: #0F1A20;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #eee;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: block;
+}
+
+#pageButtons {
+  display: flex;
+  justify-content: between;
+}
+
+#return {
+  cursor: pointer;
+  background: #0F1A20;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #eee;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: block;
 }
 
 #dark:hover {
