@@ -4,6 +4,8 @@ It's a web-page that contains a few games to enjoy :smile:
 
 ### Screenshots:
 ![Homepage](screenshots/homepage.png?raw=true "Homepage")
+![Colors Game](screenshots/color.png?raw=true "Homepage")
+![Rock Scissors Paper Game](screenshots/rsp.png?raw=true "Homepage")
 
 
 ### To-do list:
