@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* Custom Properties */
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-fancy: 'Gloria Hallelujah', cursive;
+    
+    --fw-reg: 300;
+    --fw-bold: 900;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+    
+    --clr-day-light: #DFE0E2;
+    --clr-day-dark: #071013;
+    --clr-day-shadow: #A2AEBB;
+    --clr-day-pop: #23B5D3;
+    --clr-night-light: #FFFFFF;
+    --clr-night-dark: #121212;
+    --clr-night-shadow: #1F1B24;
+    --clr-night-pop: #B00020;
+}
+
+
+/* General Styling */
+body {
+    background: var(--clr-day-light);
+    color: var(--clr-day-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    /* line-height: 1.6; */
+}
+
+section {
+    padding: 5em 2em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+strong { font-weight: var(--fw-bold) }
+
+:focus {
+    outline: 3px solid var(--clr-day-pop);
+    outline-offset: 3px;
+}
+
+
+/* Typography */
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 { 
+    font-size: var(--fs-h1);
+    font-family: var(--ff-fancy);
+}
+
+h2 { font-size: var(--fs-h2) }
+h3 { font-size: var(--fs-h3) }
+
+p {
+    line-height: normal;
+    margin: .5rem;
+}
+
+
+/* Buttons */
+
+
+/* Header */
+.header {
+    background-color: var(--clr-day-pop);
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*overflow: hidden;*/
+    color: 000;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: 9999; 
+    width: 100%; 
+}
+
+.logo img {
+    width: auto;
+    height: 100px;
+    padding: 0em 1em;
+}
+
+
+header nav {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    max-width: 35%;
+}
+
+@media (max-width: 800px) {
+    header ul {
+      flex-direction: column;
+    }
+  }
+
+header a {
+    /* padding: 0 1em; */
+    display: flex;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: var(--clr-day-dark)
+}
+
+
+
+/* Intro */
+.intro {
+    margin: 100px 0px 0px 0px;
+}
