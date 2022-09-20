@@ -106,14 +106,14 @@ function flipTheme(){
 
   if (document.activeElement.innerHTML== index[0]) {
     document.activeElement.innerHTML= index[1];
-    document.getElementById('html').style.backgroundColor = "#EDDEA4";
-    document.getElementById('nav').style.backgroundColor = "#F28F3B"; 
+    document.getElementById('html').style.backgroundColor = "#FFFFFF";
+    document.getElementById('nav').style.backgroundColor = "#FF5964"; 
     document.getElementById('html').style.color = "#000"; 
   }
   else {
     document.activeElement.innerHTML= index[0];
     
-    document.getElementById('html').style.backgroundColor = "#080708";
+    document.getElementById('html').style.backgroundColor = "#202C59";
     document.getElementById('nav').style.backgroundColor = "#0F1A20"; 
     document.getElementById('html').style.color = "#fff"; 
   }

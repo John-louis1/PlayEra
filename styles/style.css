@@ -1,5 +1,5 @@
 html {
-  background-color: #080708;
+  background-color: #202C59;
   color: #EFFFC8;
   margin-left: 15px;
 }
@@ -76,7 +76,7 @@ nav ol {
   right: 1rem;
 }
 
-#dark:hover {
+#darkModeButton:hover {
   background: #595959;
   text-decoration: none;
 }
