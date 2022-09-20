@@ -62,7 +62,7 @@ nav ol {
 }
 
 
-#dark {
+#darkModeButton {
   cursor: pointer;
   background: #0F1A20;
   border-radius: 28px;

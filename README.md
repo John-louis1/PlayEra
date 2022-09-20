@@ -1,6 +1,6 @@
-# games-webpage
-This is a mini project, applying what I know about front-end and back-end using Node.js.
-It's a web-page that contains a few games to enjoy :smile:
+<p align="center">
+    <img src="assets/playera.png" width="200" height="200">
+</p>
 
 ### Screenshots:
 ![Homepage](screenshots/homepage.png?raw=true "Homepage") <br>
