@@ -3,6 +3,6 @@
 </p>
 
 ### Try it yourself!
-You can access the website from ![here](https://playera.netlify.app/)
+You can access the website from [here](https://playera.netlify.app/)
 
 ### Screenshots:
