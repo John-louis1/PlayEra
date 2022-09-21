@@ -3,9 +3,6 @@
 </p>
 
 ### Try it yourself!
-You can access the website from ![here]()
+You can access the website from ![here](https://playera.netlify.app/)
 
 ### Screenshots:
-![Homepage](assets/screenshots/homepage.png?raw=true "Homepage") <br>
-![Colors Game](assets/screenshots/color.png?raw=true "Homepage") <br>
-![Rock Scissors Paper Game](assets/screenshots/prs.png?raw=true "Homepage") <br>
