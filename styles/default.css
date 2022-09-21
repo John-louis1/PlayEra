@@ -224,3 +224,11 @@ article button:hover {cursor: pointer;}
     .game4 { grid-area: 4 / 1 / 5 / 2; }
     .game5 { grid-area: 5 / 1 / 6 / 2; }
 }
+
+
+/* Info */
+.info {margin: 0% 5em;}
+
+.info ul {list-style: none;}
+
+.info ul li::before {content: "📌 ";}
