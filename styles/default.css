@@ -226,9 +226,58 @@ article button:hover {cursor: pointer;}
 }
 
 
+/* Image Section */
+.img-sec {
+    padding: 0;
+}
+
+.img-sec img {
+    border-radius: 50%;
+    width: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-sec .bckg-col {
+    background-image: linear-gradient(var(--clr-day-light), var(--clr-day-light), var(--clr-day-pop));
+    width: 100%;
+}
+
+
 /* Info */
 .info {margin: 0% 5em;}
 
 .info ul {list-style: none;}
 
 .info ul li::before {content: "📌 ";}
+
+
+/* Footer */
+.footer {
+    padding:0;
+    overflow: auto;
+    background-color: var(--clr-day-pop);
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    font-weight: var(--fw-bold);
+    text-decoration: none;
+    color: var(--clr-day-dark);
+    font-size: var(--fs-h3);
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none; 
+    display: flex;
+    justify-content:center;
+    padding: 0;
+}
+.footer li {
+    padding: 1em;
+}
+.footer img {width: 2.5em;}
