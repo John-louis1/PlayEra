@@ -116,16 +116,6 @@ header nav {
     max-width: 35%;
 }
 
-@media (max-width: 800px) {
-    .header {
-        max-height: 300px;
-    }
-    header nav {
-      flex-direction: column;
-      max-width: 30%;
-    }
-}
-
 header a {
     /* padding: 0 1em; */
     padding: .5em;
@@ -151,12 +141,6 @@ header a:hover {background-color: #0395d8;}
 
 .intro p {
     padding: 1em 25% 0% 25%;
-}
-
-@media (max-width: 800px) {
-    .intro p {
-        padding: 1em 5% 0% 5%;
-    }
 }
 
 
@@ -213,22 +197,6 @@ article button:hover {cursor: pointer;}
 .game3 { grid-area: 2 / 1 / 3 / 2; }
 .game4 { grid-area: 2 / 2 / 3 / 3; }
 .game5 { grid-area: 3 / 1 / 4 / 2; }
-
-@media (max-width: 800px) {
-    .games-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-    }
-        
-    .game1 { grid-area: 1 / 1 / 2 / 2; }
-    .game2 { grid-area: 2 / 1 / 3 / 2; }
-    .game3 { grid-area: 3 / 1 / 4 / 2; }
-    .game4 { grid-area: 4 / 1 / 5 / 2; }
-    .game5 { grid-area: 5 / 1 / 6 / 2; }
-}
 
 
 /* Image Section */
@@ -359,3 +327,34 @@ input:checked + label:after {
 
 .nightmode-toggle input:checked + label svg.sun {fill: #aaaaaa}
 .nightmode-toggle input:checked + label svg.moon {fill: #ffffff}
+
+
+/* Media Queries */
+@media (max-width: 800px) {
+    .intro p {
+        padding: 1em 5% 0% 5%;
+    }
+
+    .header {
+        max-height: 300px;
+    }
+
+    header nav {
+        flex-direction: column;
+        max-width: 30%;
+    }
+    
+    .games-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+        
+    .game1 { grid-area: 1 / 1 / 2 / 2; }
+    .game2 { grid-area: 2 / 1 / 3 / 2; }
+    .game3 { grid-area: 3 / 1 / 4 / 2; }
+    .game4 { grid-area: 4 / 1 / 5 / 2; }
+    .game5 { grid-area: 5 / 1 / 6 / 2; }
+}

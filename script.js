@@ -143,6 +143,9 @@ function changeMode() {
     photo.style.backgroundImage = rs.getPropertyValue("--clr-night-gradient");
     document.getElementsByClassName("footer")[0].style.backgroundColor = rs.getPropertyValue("--clr-night-pop");
     document.querySelector(".footer p").style.color = rs.getPropertyValue("--clr-day-light");
+    // .games article:hover {
+    // background: #b6b4b4;
+    document.querySelector(".games article:hover").style.backgroundColor = rgb(b6, b4, b4);
   } else { // Day mode
     document.getElementById("logo").src = "assets/playera-no-bckgnd.png";
     document.body.style.backgroundColor = rs.getPropertyValue("--clr-day-light");
@@ -160,5 +163,6 @@ function changeMode() {
     photo.style.backgroundImage = rs.getPropertyValue("--clr-day-gradient");
     document.getElementsByClassName("footer")[0].style.backgroundColor = rs.getPropertyValue("--clr-day-pop");
     document.querySelector(".footer p").style.color = rs.getPropertyValue("--clr-night-dark");
+    document.querySelector(".games article:hover").style.backgroundColor = rgb(b6, b4, b4);
   }
 }
