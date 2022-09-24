@@ -1,5 +1,5 @@
 import React from "react";
-import "./global.css"
+import "../global.css"
 import logo from "../assets/logo/playera-light.png";
 
 export default function NavigationBar() {

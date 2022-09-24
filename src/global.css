@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah');
+
+
 *,
 *::before,
 *::after {
@@ -83,7 +86,7 @@ p {
     justify-content: space-between;
     align-items: center;
     color: var(--clr-day-dark);
-    position: fixed;
+    /* position: fixed; */
     top: 0; 
     left: 0;
     z-index: 9999; 
