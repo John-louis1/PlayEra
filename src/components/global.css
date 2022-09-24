@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+/* Custom Properties */
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-fancy: 'Gloria Hallelujah', cursive;
+    
+    --fw-reg: 300;
+    --fw-bold: 900;
+    
+    --fs-h1: 4rem;
+    --fs-h2: 2.5rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.2rem;
+    
+    --clr-day-light: #DFE0E2;
+    --clr-day-dark: #071013;
+    --clr-day-shadow: #d1d0d0;
+    --clr-day-pop: #99DDFF;
+    --clr-night-light: #FFFFFF;
+    --clr-night-dark: #1A2238;
+    --clr-night-shadow: #2B3349;
+    --clr-night-pop: #28559A;
+    --clr-day-gradient:   linear-gradient(var(--clr-day-light), var(--clr-day-light), var(--clr-day-light), var(--clr-day-pop));
+    --clr-night-gradient: linear-gradient(var(--clr-night-dark),var(--clr-night-dark),var(--clr-night-dark), var(--clr-night-dark), var(--clr-night-dark), var(--clr-night-pop));
+}
+
+
+
+/* General Styling */
+body {
+    background: var(--clr-day-light);
+    color: var(--clr-day-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+strong { font-weight: var(--fw-bold) }
+
+
+
+/* Typography */
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 { 
+    font-size: var(--fs-h1);
+    font-family: var(--ff-fancy);
+}
+
+h2 { font-size: var(--fs-h2) }
+h3 { font-size: var(--fs-h3) }
+
+p {
+    line-height: normal;
+    margin: .5rem;
+}
+
+
+
+/* Header */
+.header {
+    background-color: var(--clr-day-pop);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--clr-day-dark);
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: 9999; 
+    width: 100%; 
+}
+
+.header__img {
+    width: auto;
+    height: 100px;
+    padding: 0em 1em;
+}
+
+.header__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+}
+
+.header__ul__a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    margin: 1.5em;
+    color: var(--clr-day-dark);
+    font-weight: var(--fw-bold);
+}
+
+
+header a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+    text-decoration-color: #0395d8;
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .header__ul__a {
+        margin: 0em;
+    }
+}
