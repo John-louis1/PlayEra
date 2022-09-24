@@ -86,7 +86,7 @@ p {
     justify-content: space-between;
     align-items: center;
     color: var(--clr-day-dark);
-    /* position: fixed; */
+    position: fixed;
     top: 0; 
     left: 0;
     z-index: 9999; 
@@ -129,7 +129,17 @@ header a:hover {
 
 /* Media Queries */
 @media (max-width: 600px) {
+    .header {
+        height: 150px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .header__img{left: 0.5em; position: relative}
+
     .header__ul__a {
         margin: 0em;
+        padding: 0em 1em;
     }
 }
