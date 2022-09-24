@@ -10,7 +10,7 @@ import guessTheColorImage from "../../../assets/guess-the-color-logo.png";
 
 export default function GamesList() {
     return (
-        <section className="games-sec"> 
+        <section className="games-sec section"> 
             <h2>Available Games </h2>
             <div class="games-container">
                 <Game 

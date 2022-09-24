@@ -5,14 +5,16 @@
 }
 
 
-
-/* Games Section */
-.games-sec {
-    padding: 2em;
+/* Sections */
+.section {
+    margin: 1.5em;
+    padding: 1em;
     display: block;
 }
 
-.games-sec h2 {margin: 0% 3em;}
+
+
+/* Games Section */
 
 .games-sec article {
     background: var(--clr-day-shadow);
@@ -65,13 +67,33 @@ article p {
 
 
 
+/* Information Section */
+.info-sec ul {list-style: none;}
+
+.info-sec a {
+    color: var(--clr-day-dark);
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+}
+
+.info-sec ul li::before {content: "📌 ";}
+
+
+
 /* Media Queries */
 @media (max-width: 600px) {
     .welcome-sec {padding: calc(4em + 150px) 4em 4em 4em;}
 }
 
 @media (max-width:800px) {
-    .games-sec h2 {margin: 0em;}
+    .section {
+        padding: 1em;
+        margin: 1em;
+    }
+
+    .section h2 {text-align: center;}
+
+    .games-sec article {margin: 2em;}
 
     .games-container {
         display: grid;
