@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah');
-
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah'); /* Fancy Font */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); /* Drop-down icon */
 
 *,
 *::before,
@@ -91,6 +91,8 @@ p {
     left: 0;
     z-index: 9999; 
     width: 100%; 
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+
 }
 
 .header__img {
@@ -99,7 +101,7 @@ p {
     padding: 0em 1em;
 }
 
-.header__list {
+.header__nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -116,14 +118,37 @@ p {
     font-weight: var(--fw-bold);
 }
 
-
 header a:hover {
     cursor: pointer;
-    text-decoration: underline;
-    text-decoration-thickness: 0.2em;
-    text-decoration-color: #0395d8;
+    text-decoration: underline #0395d8 0.2em;
+    text-underline-offset: 0.4em;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--clr-day-pop);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header__call-to-action {background-color: #0395d8; color: #fff;}
+
+.header__call-to-action:hover {text-decoration-color: #fff;}
 
 
 
@@ -140,6 +165,6 @@ header a:hover {
 
     .header__ul__a {
         margin: 0em;
-        padding: 0em 1em;
+        padding: 0.5em 1em;
     }
 }
