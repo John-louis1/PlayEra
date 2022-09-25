@@ -23,16 +23,16 @@
     --fs-h3: 1.5rem;
     --fs-body: 1.2rem;
     
-    --clr-day-light: #DFE0E2;
+    --clr-day-light: #DDE0E0; 
     --clr-day-dark: #071013;
     --clr-day-shadow: #d1d0d0;
     --clr-day-pop: #99DDFF;
     --clr-night-light: #FFFFFF;
     --clr-night-dark: #1A2238;
     --clr-night-shadow: #2B3349;
-    --clr-night-pop: #28559A;
-    --clr-day-gradient:   linear-gradient(var(--clr-day-light), var(--clr-day-light), var(--clr-day-light), var(--clr-day-pop));
-    --clr-night-gradient: linear-gradient(var(--clr-night-dark),var(--clr-night-dark),var(--clr-night-dark), var(--clr-night-dark), var(--clr-night-dark), var(--clr-night-pop));
+    --clr-night-pop: #354675;
+    --clr-day-gradient:   linear-gradient(var(--clr-day-light), var(--clr-day-pop), var(--clr-day-pop));
+    --clr-night-gradient: linear-gradient(var(--clr-night-dark),var(--clr-night-pop),var(--clr-night-pop));
 }
 
 
@@ -160,6 +160,8 @@ header a:hover {
     display: block;
     align-items: center;
     justify-content: center;
+    background-image: var(--clr-day-gradient);
+    /* box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2); */
 }
 
 .footer p {

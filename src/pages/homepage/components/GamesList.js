@@ -12,7 +12,7 @@ export default function GamesList() {
     return (
         <section className="games-sec section"> 
             <h2>Available Games </h2>
-            <div class="games-container">
+            <div className="games-container">
                 <Game 
                     imgSrc= { angryBirdsImage }
                     name="Angry Birds" 

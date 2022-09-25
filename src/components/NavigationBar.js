@@ -5,12 +5,12 @@ import logo from "../assets/logo/playera-light.png";
 export default function NavigationBar() {
     return ( 
         <header className="header">
-            <a> <img src={logo} alt="Logo" className="header__img" /> </a>
+            <a> <img src={ logo } alt="Logo" className="header__img" /> </a>
             <nav className="header__nav">
                 <a className="header__ul__a">Home</a>
                 <div className="dropdown">
-                <a className="header__ul__a">Games <i class="fa fa-caret-down"></i> </a>
-                <div class="dropdown-content">
+                <a className="header__ul__a">Games <i className="fa fa-caret-down"></i> </a>
+                <div className="dropdown-content">
                     <a href="#">Angry Birds</a>
                     <a href="#">Click and Destroy</a>
                     <a href="#">Rock Scissors Paper</a>
